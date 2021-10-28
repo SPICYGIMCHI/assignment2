@@ -1,4 +1,4 @@
-package ca.utm.utoronto.assignment2.ThreeMusketeers;
+package assignment2;
 
 import javafx.animation.PauseTransition;
 import javafx.geometry.HPos;

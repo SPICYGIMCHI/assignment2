@@ -1,4 +1,4 @@
-package ca.utm.utoronto.assignment2.ThreeMusketeers;
+package assignment2;
 
 public class Move {
     final Cell fromCell;
