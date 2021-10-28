@@ -1,7 +1,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
   xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>ca.utm.utoronto.assignment2</groupId>
+    <groupId>assignment2</groupId>
     <artifactId>ThreeMusketeers</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
@@ -58,7 +58,7 @@
                 <artifactId>javafx-maven-plugin</artifactId>
                 <version>0.0.4</version>
                 <configuration>
-                    <mainClass>ca.utm.utoronto.assignment2.ThreeMusketeers.App</mainClass>
+                    <mainClass>assignment2.App</mainClass>
                 </configuration>
             </plugin>
             <plugin>
@@ -67,7 +67,7 @@
                 <version>3.0.0-M5</version>
                 <configuration>
                     <argLine>
-                        --add-opens ca.utm.utoronto.assignment2/ca.utm.utoronto.assignment2.ThreeMusketeers=ALL-UNNAMED
+                        --add-opens assignment2/assignment2=ALL-UNNAMED
                         --add-exports javafx.graphics/com.sun.javafx.application=ALL-UNNAMED
                         --add-opens javafx.graphics/com.sun.glass.ui=ALL-UNNAMED
 <!--                        -Djava.awt.headless=true-->

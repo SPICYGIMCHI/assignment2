@@ -1,4 +1,4 @@
-package ca.utm.utoronto.assignment2.ThreeMusketeers;
+package assignment2;
 
 public interface BoardEvaluator {
     double evaluateBoard(Board board);

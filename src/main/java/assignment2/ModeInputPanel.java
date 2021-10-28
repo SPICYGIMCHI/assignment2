@@ -1,4 +1,4 @@
-package ca.utm.utoronto.assignment2.ThreeMusketeers;
+package assignment2;
 
 import javafx.geometry.Pos;
 import javafx.scene.control.Button;
