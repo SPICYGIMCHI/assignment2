@@ -122,8 +122,8 @@ public class View {
         saveFileNameTextField.setId("SaveFileNameTextField");  // DO NOT MODIFY ID
         saveFileNameTextField.setStyle("-fx-background-color: #181a1b; -fx-text-fill: white;");
 
-        saveFileErrorLabel.setId("SaveFileErrorLabel");  // DO NOT MODIFY ID
         saveFileErrorLabel = new Label("");
+        saveFileErrorLabel.setId("SaveFileErrorLabel");  // DO NOT MODIFY ID
         saveFileErrorLabel.setStyle("-fx-text-fill: #e8e6e3;");
 
         restartButton = new Button("New game");
